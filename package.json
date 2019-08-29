@@ -1,0 +1,14 @@
+{
+    "name": "owoify",
+    "description": "owoifies a string",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": "https://github.com/jsmiith/owoify",
+    "author": "Jacob Smith",
+    "license": "MIT",
+    "keywords": [
+        "owo",
+        "owoify",
+        "meme"
+    ]
+}
