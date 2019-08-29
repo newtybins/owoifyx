@@ -1,9 +1,9 @@
 {
-    "name": "owoify",
+    "name": "owoifyx",
     "description": "owoifies a string",
     "version": "0.0.1",
     "main": "index.js",
-    "repository": "https://github.com/jsmiith/owoify",
+    "repository": "https://github.com/jsmiith/owoifyx",
     "author": "Jacob Smith",
     "license": "MIT",
     "keywords": [

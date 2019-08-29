@@ -1,17 +1,17 @@
-# owoify
+# owoifyx
 
 > owoifies a string
 
 ## Installation
 
 ```bash
-npm i owoify
+npm i owoifyx
 ```
 
 ## Usage
 
 ```js
-const owoify = require('owoify');
+const owoify = require('owoifyx');
 console.log(owoify('Hello friend!')); // Hewwo fwiend (*^ω^)
 ```
 
