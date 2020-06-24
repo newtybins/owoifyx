@@ -17,7 +17,7 @@ const kaomoji = [
     '(/ =ω=)/',
 ];
 
-module.exports = (str) => {
+module.exports = str => {
     str = str.replace(/(?:l|r)/g, 'w');
     str = str.replace(/(?:L|R)/g, 'W');
     str = str.replace(/n([aeiou])/g, 'ny$1');

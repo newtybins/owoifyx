@@ -1,14 +1,15 @@
 {
     "name": "owoifyx",
     "description": "owoifies a string",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "main": "index.js",
-    "repository": "https://github.com/jsmiith/owoifyx",
-    "author": "Jacob Smith",
+    "repository": "https://github.com/newtykins/owoifyx",
+    "author": "newt",
     "license": "MIT",
     "keywords": [
         "owo",
         "owoify",
-        "meme"
+        "uwu",
+        "kaomoji"
     ]
 }
