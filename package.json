@@ -1,22 +1,31 @@
 {
   "name": "owoifyx",
-  "description": "owoifies a string",
+  "description": "owoifies a string ^w^",
   "version": "1.0.2",
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/newtykins/owoifyx",
   "author": "newtykins",
   "license": "MIT",
   "scripts": {
-    "gulp": "gulp"
+    "prepublish": "gulp",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "typescript": "^4.4.3"
   },
   "keywords": [
     "owo",
     "owoify",
     "uwu",
-    "kaomoji"
-  ],
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-uglify": "^3.0.2"
-  }
+    "kaomoji",
+    "discord",
+    "bot",
+    "string",
+    "text"
+  ]
 }

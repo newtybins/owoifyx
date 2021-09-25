@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="readme.gif" alt="readme GIF" height="250">
+	<img src="https://imgur.com/YOkvxap.gif" alt="readme GIF" height="250">
 	<h1>owoifyx</h1>
 	<img src="https://img.shields.io/bundlephobia/min/owoifyx?color=red&label=Package%20Size&logo=npm&style=for-the-badge" alt="Package Size">
 	<img src="https://img.shields.io/npm/v/owoifyx?label=Version&color=red&logo=npm&style=for-the-badge" alt="Version">
