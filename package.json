@@ -1,7 +1,7 @@
 {
   "name": "owoifyx",
   "description": "owoifies a string ^w^",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "repository": "https://github.com/newtykins/owoifyx",
