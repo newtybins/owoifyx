@@ -1,15 +1,22 @@
 {
-    "name": "owoifyx",
-    "description": "owoifies a string",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "https://github.com/newtykins/owoifyx",
-    "author": "newt",
-    "license": "MIT",
-    "keywords": [
-        "owo",
-        "owoify",
-        "uwu",
-        "kaomoji"
-    ]
+  "name": "owoifyx",
+  "description": "owoifies a string",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "repository": "https://github.com/newtykins/owoifyx",
+  "author": "newtykins",
+  "license": "MIT",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "owo",
+    "owoify",
+    "uwu",
+    "kaomoji"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
 }
