@@ -17,20 +17,15 @@ const kaomoji = [
   "(/ =ω=)/",
 ];
 
-const owoify = (input: string) => {
-  input = input.replace(/(?:l|r)/g, "w");
-  input = input.replace(/(?:L|R)/g, "W");
-  input = input.replace(/n([aeiou])/g, "ny$1");
-  input = input.replace(/N([aeiou])|N([AEIOU])/g, "Ny$1");
-  input = input.replace(/ove/g, "uv");
-  input = input.replace(/nd(?= |$)/g, "ndo");
-  input = input.replace(
-    /!+/g,
-    ` ${kaomoji[Math.floor(Math.random() * kaomoji.length)]}`
-  );
-
-  return input;
-};
+const owoify = (input: string) =>
+  input
+    .replace(/(?:l|r)/g, "w")
+    .replace(/(?:L|R)/g, "W")
+    .replace(/n([aeiou])/g, "ny$1")
+    .replace(/N([aeiou])|N([AEIOU])/g, "Ny$1")
+    .replace(/ove/g, "uv")
+    .replace(/nd(?= |$)/g, "ndo")
+    .replace(/!+/g, " " + kaomoji[Math.floor(Math.random() * kaomoji.length)]);
 
 export { owoify };
 export default owoify;
