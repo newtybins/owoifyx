@@ -9,13 +9,16 @@
     "license": "MIT",
     "scripts": {
         "prepublish": "gulp",
-        "build": "gulp"
+        "build": "gulp",
+        "size": "gulp && size-limit"
     },
     "devDependencies": {
+        "@size-limit/preset-small-lib": "^7.0.8",
         "@types/node": "^16.10.1",
         "gulp": "^4.0.2",
         "gulp-typescript": "^6.0.0-alpha.1",
         "gulp-uglify": "^3.0.2",
+        "size-limit": "^7.0.8",
         "typescript": "^4.4.3"
     },
     "keywords": [
@@ -27,5 +30,10 @@
         "bot",
         "string",
         "text"
+    ],
+    "size-limit": [
+        {
+            "path": "dist/*.js"
+        }
     ]
 }
