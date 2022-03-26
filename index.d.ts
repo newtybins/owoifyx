@@ -1,2 +1,1 @@
-export function owoify(input: string): string;
-export default owoify;
+export default function owofify(text: string): string;
